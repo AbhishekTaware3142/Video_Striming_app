@@ -1,6 +1,8 @@
 import useAuth from '@/hooks/useAuth';
 import {BellIcon, SearchIcon} from '@heroicons/react/solid';
 import Link from 'next/link';
+import Image from "next/image";
+
 import { useEffect, useState } from 'react';
 
 function Header() {
