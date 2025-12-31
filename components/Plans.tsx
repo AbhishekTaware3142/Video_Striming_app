@@ -3,6 +3,8 @@ import { CheckIcon } from "@heroicons/react/outline";
 import Head from "next/head"
 import Link from "next/link"
 import Table from "./Table";
+import Image from "next/image";
+
 import { useState } from "react";
 
 function Plans() {
@@ -18,12 +20,13 @@ function Plans() {
         
         <header className="border-b border-white/10 bg-[#141414]">
             <Link href="/">
-                <img src="../images/logo.png" 
-                alt="Voodoo"
-                width={100}
-                height={100}
-                className="cursor-pointer object-contain"
-                />
+                <Image
+  src="/plan.png"
+  alt="Subscription Plan"
+  width={300}
+  height={200}
+/>
+
             </Link>
             <button 
                 className="text-lg font-medium hover:underline"
